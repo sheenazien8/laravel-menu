@@ -1,7 +1,11 @@
 {
     "name": "sheenazien8/laravel-menu",
     "description": "An easy way to adjust the appearance of your menu in laravel apps",
-    "type": "composer-plugin, library, laravel-package",
+    "keywords": [
+        "composer-plugin",
+        "library",
+        "laravel-package"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -9,5 +13,14 @@
             "email": "sheenazien08@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Sheenazien8\\LaravelMenu\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.0@dev"
+    },
     "minimum-stability": "dev"
 }
